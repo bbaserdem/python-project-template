@@ -1,11 +1,16 @@
-# Put dependencies needed for test suites here
-pytest
-coverage
+# Linter dependencies
 flake8
 black
-isort
+mypy
+# Documentation generation
+mkdocs
+# Release info generation
+gitchangelog
+# Code coverage report
+coverage
 pytest-cov
 codecov
-mypy
-gitchangelog
-mkdocs
+# Automatically format requirements
+isort
+# Test suite dependencies
+pytest
